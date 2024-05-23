@@ -21,6 +21,7 @@
 .DS_Store
 
 # ignore all files in directory
-assets/
+assets/images/
+assets/outputs/
 docs/
 
