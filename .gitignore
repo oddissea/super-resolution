@@ -23,7 +23,6 @@
 # ignore all files in directory
 assets/src/__pycache__
 assets/src/.ipynb_checkpoints
-assets/images/
 assets/outputs/
 docs/
 
