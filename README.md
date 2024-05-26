@@ -1,33 +1,34 @@
 # Towards spectral super-resolution in solar absorption lines from pseudomonochromatic images
 
-# Software Installation Process Documentation
 
-## Introduction
+## Software Installation Process Documentation
+
+### Introduction
 
 This documentation guides the installation and setup of the necessary environment for the super-resolution project using Conda.
 
-## Prerequisites
+### Prerequisites
 
 - Access to a terminal or command line
 - Internet connection to download necessary packages
 - Administrative permissions (if necessary to install Conda)
 
-## Step 1: Installing Conda
+### Step 1: Installing Conda
 
-### Download and install Miniconda or Anaconda
+#### Download and install Miniconda or Anaconda
 
 - Visit the [official Miniconda site](https://docs.conda.io/en/latest/miniconda.html) or the [official Anaconda site](https://www.anaconda.com/products/individual) and download the appropriate installer for your operating system.
 - Follow the instructions to complete the installation.
 
-### Verify the installation
+#### Verify the installation
 
 - Restart your terminal and type:
 ```bash
 conda --version
 ```
-## Step 2: Setting Up the Conda Environment
+### Step 2: Setting Up the Conda Environment
 
-### Navigate to the project folder
+#### Navigate to the project folder
 
 - Change to the directory where the project is located, if you are not already there:
 
@@ -35,7 +36,7 @@ conda --version
 cd path/to/FHN
 ```
 
-### Create the environment from a super-resolution.yml file
+#### Create the environment from a super-resolution.yml file
 
 - Ensure the super-resolution.yml file is in your current directory or specify the full path to the file.
 - Run the following command:
@@ -46,7 +47,7 @@ conda env create -f super-resolution.yml
 
 - This will create a new environment named super-resolution and install all the dependencies specified in the file.
 
-### Activate the environment
+#### Activate the environment
 
 - Once the environment is created, activate it with:
 
@@ -54,9 +55,9 @@ conda env create -f super-resolution.yml
 conda activate super-resolution
 ```
 
-## Step 3: Working with the Project
+### Step 3: Working with the Project
 
-### Start JupyterLab
+#### Start JupyterLab
 
 - Run JupyterLab with:
 
@@ -66,7 +67,7 @@ jupyter lab
 
 This will open JupyterLab in your browser, where you can open and run the project notebooks.
 
-## Opening PyTorch Profiler Logs on TensorBoard
+### Opening PyTorch Profiler Logs on TensorBoard
 
 Assuming `tensorboard` and `torch-tb-profiler` are installed, follow these steps to view your profiling logs:
 
