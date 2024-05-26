@@ -1,7 +1,7 @@
 # Towards spectral super-resolution in solar absorption lines from pseudomonochromatic images
 
 
-## Software Installation Process Documentation
+## Software installation process documentation
 
 ### Introduction
 
@@ -26,7 +26,7 @@ This documentation guides the installation and setup of the necessary environmen
 ```bash
 conda --version
 ```
-### Step 2: Setting Up the Conda Environment
+### Step 2: Setting up the Conda environment
 
 #### Navigate to the project folder
 
@@ -55,7 +55,7 @@ conda env create -f super-resolution.yml
 conda activate super-resolution
 ```
 
-### Step 3: Working with the Project
+### Step 3: Working with the project
 
 #### Start JupyterLab
 
@@ -67,11 +67,11 @@ jupyter lab
 
 This will open JupyterLab in your browser, where you can open and run the project notebooks.
 
-### Opening PyTorch Profiler Logs on TensorBoard
+### Opening PyTorch Profiler logs on TensorBoard
 
 Assuming `tensorboard` and `torch-tb-profiler` are installed, follow these steps to view your profiling logs:
 
-1. **Check the Location of TensorFlow**
+1. **Check the location of TensorFlow**
    - Run the following command to find out where TensorFlow is installed:
      ```bash
      pip show tensorflow
@@ -83,7 +83,7 @@ Assuming `tensorboard` and `torch-tb-profiler` are installed, follow these steps
      Location: /home/abc/xy/.local/lib/python2.7/site-packages
      ```
 
-2. **Navigate to the TensorFlow Directory**
+2. **Navigate to the TensorFlow directory**
    - Go to the directory you obtained from the above output:
      ```bash
      cd /home/abc/xy/.local/lib/python2.7/site-packages
