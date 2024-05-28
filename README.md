@@ -33,7 +33,7 @@ conda --version
 - Change to the directory where the project is located, if you are not already there:
 
 ```bash
-cd path/to/FHN
+cd path/to/super-resolution-folder
 ```
 
 #### Create the environment from a super-resolution.yml file
