@@ -22,6 +22,7 @@
 
 # ignore all files in directory
 .gitignore
+.gitattributes
 .ipynb_checkpoints
 __pycache__
 assets/outputs/results
