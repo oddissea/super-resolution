@@ -21,8 +21,9 @@
 .DS_Store
 
 # ignore all files in directory
-assets/src/__pycache__
-assets/src/.ipynb_checkpoints
+.gitignore
+.ipynb_checkpoints
+__pycache__
 assets/outputs/results
 docs/B5_PFG_Signed.pdf
 
